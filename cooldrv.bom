@@ -1,0 +1,17 @@
+Partlist
+
+All capacitors 75V rated or more, all resistors 1%. Use exact part number if given.
+
+Part     Value            Package    Library  Position (mm)         Orientation
+
+C1       0.1u             C0603      rcl      (2.45 10.75)          R180
+C3       CGA4J3X5R1H475K  C0805K     rcl      (2.475 12.285)        R180
+C4       0.1u             C0603      rcl      (15.47 11.58)         R0
+C6       0.01u            C0603      rcl      (16.11 9.785)         R180
+D1       MM3Z3V3T1G       SOD323-R   diode    (3.775 2.9)           R180
+R1       RL1220T-R050-J   0805C      untitled (7.564 12.31)         R180
+R2       RL1220T-R050-J   0805C      untitled (12.026 12.305)       R180
+R3       33k              R0603      rcl      (1.075 4.25)          R90
+R5       33k              R0603      rcl      (1.025 8.025)         R90
+U$1      DRV8825          ETSSOP28   untitled (9.91 6.67)           R270
+U$2      EVM-3YSX50B14    TRIMMER3MM untitled (3.3 6.86)            R180
