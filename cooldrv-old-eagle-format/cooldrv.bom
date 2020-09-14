@@ -1,0 +1,18 @@
+Partlist
+
+All capacitors 75V rated or more, all resistors 1%. Use exact part number if given.
+Note that all parts except U$2 are mounted on the bottom of the board.
+
+Part     Value            Package    Library  Position (mm)         Orientation
+
+C1       0.1u             C0603      rcl      (2.99 11.11)          MR90
+C3       CGA4J3X5R1H475K  C0805K     rcl      (1.445 11.205)        MR90
+C4       0.1u             C0603K     rcl      (5.07 11.6)           MR0
+C6       0.01u            C0603      rcl      (4.705 9.03)          MR270
+D1       MM3Z3V3T1G       SOD323-R   diode    (16.24 4.185)         MR90
+R1       WSLP0603R0500FEA 0805C      untitled (12.756 12.25)        MR180
+R2       WSLP0603R0500FEA 0805C      untitled (8.294 12.285)        MR180
+R3       33k              R0603      rcl      (18.47 3.085)         MR180
+R5       33k              R0603      rcl      (18.465 5.455)        MR180
+U$1      DRV8825          ETSSOP28   untitled (10.41 6.67)          MR270
+U$2      EVM-3YSX50B14    TRIMMER3MM untitled (17.64 11.16)         R90
