@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name cooldrv)(type KiCad)(uri "$(KIPRJMOD)/cooldrv.pretty")(options "")(descr ""))
+)

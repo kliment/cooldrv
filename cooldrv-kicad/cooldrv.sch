@@ -1,0 +1,307 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	5000 3900 5000 3700
+Wire Wire Line
+	5000 3700 5000 3600
+Wire Wire Line
+	4600 3700 4800 3700
+Wire Wire Line
+	4800 3700 5000 3700
+Connection ~ 4800 3700
+Connection ~ 5000 3700
+Text Label 5000 3900 0    10   ~ 0
+GND
+Wire Wire Line
+	7500 3100 6400 3100
+Wire Wire Line
+	6400 3100 6400 3500
+Wire Wire Line
+	6400 4000 6500 4000
+Wire Wire Line
+	6500 4000 6600 4000
+Wire Wire Line
+	6600 4000 6700 4000
+Wire Wire Line
+	6400 4000 6400 3500
+Wire Wire Line
+	6300 4000 6400 4000
+Wire Wire Line
+	6200 4000 6300 4000
+Wire Wire Line
+	6100 4000 6200 4000
+Wire Wire Line
+	6100 4200 6100 4000
+Wire Wire Line
+	6200 4200 6100 4200
+Wire Wire Line
+	6300 4200 6200 4200
+Wire Wire Line
+	6400 4200 6300 4200
+Wire Wire Line
+	6500 4200 6400 4200
+Wire Wire Line
+	6600 4200 6500 4200
+Wire Wire Line
+	6700 4200 6600 4200
+Wire Wire Line
+	6700 4400 6700 4200
+Wire Wire Line
+	6600 4400 6700 4400
+Wire Wire Line
+	6500 4400 6600 4400
+Wire Wire Line
+	6400 4400 6500 4400
+Wire Wire Line
+	6300 4400 6400 4400
+Wire Wire Line
+	6200 4400 6300 4400
+Wire Wire Line
+	6100 4400 6200 4400
+Wire Wire Line
+	5400 4400 6100 4400
+Wire Wire Line
+	7600 4500 6700 4500
+Wire Wire Line
+	6700 4500 6700 4400
+Connection ~ 6400 3500
+Connection ~ 6500 4000
+Connection ~ 6600 4000
+Connection ~ 6400 4000
+Connection ~ 6300 4000
+Connection ~ 6200 4000
+Connection ~ 6100 4000
+Connection ~ 6100 4200
+Connection ~ 6200 4200
+Connection ~ 6300 4200
+Connection ~ 6400 4200
+Connection ~ 6500 4200
+Connection ~ 6600 4200
+Connection ~ 6700 4200
+Connection ~ 6700 4400
+Connection ~ 6600 4400
+Connection ~ 6500 4400
+Connection ~ 6400 4400
+Connection ~ 6300 4400
+Connection ~ 6200 4400
+Connection ~ 6100 4400
+Text Label 7500 3100 0    10   ~ 0
+GND
+Wire Wire Line
+	5000 5300 5200 5300
+Text Label 5000 5300 0    10   ~ 0
+GND
+Wire Wire Line
+	5400 3100 5400 3000
+Wire Wire Line
+	5400 3200 5100 3200
+Wire Wire Line
+	5100 3200 5100 3000
+Wire Wire Line
+	5300 3300 5400 3300
+Wire Wire Line
+	5400 3400 5000 3400
+Wire Wire Line
+	5000 3400 5000 3300
+Wire Wire Line
+	5400 4100 5700 4100
+Wire Wire Line
+	5700 4100 5700 3400
+Wire Wire Line
+	5700 3400 5400 3400
+Wire Wire Line
+	5800 4600 5700 4600
+Wire Wire Line
+	5700 4600 5700 4100
+Wire Wire Line
+	4600 3400 4800 3400
+Wire Wire Line
+	4800 3400 5000 3400
+Connection ~ 5400 3400
+Connection ~ 5700 4100
+Connection ~ 4800 3400
+Connection ~ 5000 3400
+Wire Wire Line
+	7500 3900 7700 3900
+Wire Wire Line
+	7500 3800 7700 3800
+Wire Wire Line
+	7500 3700 7700 3700
+Wire Wire Line
+	5400 4000 5100 4000
+Wire Wire Line
+	5400 3800 5200 3800
+Wire Wire Line
+	5400 3700 5200 3700
+Wire Wire Line
+	5400 3500 5200 3500
+Wire Wire Line
+	5400 4200 5400 4300
+Wire Wire Line
+	5200 4500 5200 4300
+Wire Wire Line
+	5200 4300 5400 4300
+Connection ~ 5400 4300
+Wire Wire Line
+	7500 3500 7700 3500
+Wire Wire Line
+	7500 3400 7700 3400
+Wire Wire Line
+	7500 3300 7700 3300
+Wire Wire Line
+	7500 4700 7500 4400
+Wire Wire Line
+	5800 4700 7500 4700
+Wire Wire Line
+	5800 5300 5800 4700
+Wire Wire Line
+	7500 4100 7700 4100
+Wire Wire Line
+	7500 3200 7700 3200
+Wire Wire Line
+	7500 4300 7500 4200
+Wire Wire Line
+	7500 4300 7600 4300
+Wire Wire Line
+	7600 4300 7800 4300
+Wire Wire Line
+	7800 4300 7800 4600
+Wire Wire Line
+	7800 4600 6200 4600
+Connection ~ 7500 4300
+Connection ~ 7600 4300
+$Comp
+L cooldrv-eagle-import:0805CS R1
+U 1 1 32E92B81
+P 5200 3900
+F 0 "R1" H 5050 3959 59  0000 L BNN
+F 1 "WSLP0603R0500FEA" H 5050 3770 59  0000 L BNN
+F 2 "cooldrv:0805C" H 5200 3900 50  0001 C CNN
+F 3 "" H 5200 3900 50  0001 C CNN
+	1    5200 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L cooldrv-eagle-import:0805CS R2
+U 1 1 0AEF1914
+P 5200 3600
+F 0 "R2" H 5050 3659 59  0000 L BNN
+F 1 "WSLP0603R0500FEA" H 5050 3470 59  0000 L BNN
+F 2 "cooldrv:0805C" H 5200 3600 50  0001 C CNN
+F 3 "" H 5200 3600 50  0001 C CNN
+	1    5200 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L cooldrv-eagle-import:C-EUC0805K C3
+U 1 1 368843A1
+P 4600 3600
+F 0 "C3" H 4660 3615 59  0000 L BNN
+F 1 "CGA4J3X5R1H475K" H 4660 3415 59  0000 L BNN
+F 2 "cooldrv:C0805K" H 4600 3600 50  0001 C CNN
+F 3 "" H 4600 3600 50  0001 C CNN
+	1    4600 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L cooldrv-eagle-import:C-EUC0603K C4
+U 1 1 CEB2E16B
+P 5200 3300
+F 0 "C4" H 5260 3315 59  0000 L BNN
+F 1 "0.1u" H 5260 3115 59  0000 L BNN
+F 2 "cooldrv:C0603K" H 5200 3300 50  0001 C CNN
+F 3 "" H 5200 3300 50  0001 C CNN
+	1    5200 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L cooldrv-eagle-import:C-EUC0603 C6
+U 1 1 D66D29A2
+P 5200 3000
+F 0 "C6" H 5260 3015 59  0000 L BNN
+F 1 "0.01u" H 5250 2800 59  0000 L BNN
+F 2 "cooldrv:C0603" H 5200 3000 50  0001 C CNN
+F 3 "" H 5200 3000 50  0001 C CNN
+	1    5200 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L cooldrv-eagle-import:TRIMMER3MM U$2
+U 1 1 C6220A44
+P 5200 4900
+F 0 "U$2" H 5200 4900 50  0001 C CNN
+F 1 "EVM-3YSX50B14" H 5200 4900 50  0001 C CNN
+F 2 "cooldrv:TRIMMER3MM" H 5200 4900 50  0001 C CNN
+F 3 "" H 5200 4900 50  0001 C CNN
+	1    5200 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L cooldrv-eagle-import:R-EU_R0603 R5
+U 1 1 D0CB74CC
+P 5600 5300
+F 0 "R5" H 5450 5359 59  0000 L BNN
+F 1 "33k" H 5450 5170 59  0000 L BNN
+F 2 "cooldrv:R0603" H 5600 5300 50  0001 C CNN
+F 3 "" H 5600 5300 50  0001 C CNN
+	1    5600 5300
+	-1   0    0    1   
+$EndComp
+$Comp
+L cooldrv-eagle-import:DRV8825 U$1
+U 1 1 BABD3B23
+P 6500 4000
+F 0 "U$1" H 6500 4000 50  0001 C CNN
+F 1 "DRV8825" H 6500 4000 50  0001 C CNN
+F 2 "cooldrv:ETSSOP28" H 6500 4000 50  0001 C CNN
+F 3 "" H 6500 4000 50  0001 C CNN
+	1    6500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L cooldrv-eagle-import:DIODE-SOD323-R D1
+U 1 1 2CA1BF86
+P 7600 4400
+F 0 "D1" H 7700 4419 59  0000 L BNN
+F 1 "MM3Z3V3T1G" H 7700 4309 59  0000 L BNN
+F 2 "cooldrv:SOD323-R" H 7600 4400 50  0001 C CNN
+F 3 "" H 7600 4400 50  0001 C CNN
+	1    7600 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L cooldrv-eagle-import:R-EU_R0603 R3
+U 1 1 F1AD9E8D
+P 6000 4600
+F 0 "R3" H 5850 4659 59  0000 L BNN
+F 1 "33k" H 5850 4470 59  0000 L BNN
+F 2 "cooldrv:R0603" H 6000 4600 50  0001 C CNN
+F 3 "" H 6000 4600 50  0001 C CNN
+	1    6000 4600
+	-1   0    0    1   
+$EndComp
+$Comp
+L cooldrv-eagle-import:C-EUC0603 C1
+U 1 1 C770F40A
+P 4800 3600
+F 0 "C1" H 4860 3615 59  0000 L BNN
+F 1 "0.1u" H 4860 3415 59  0000 L BNN
+F 2 "cooldrv:C0603" H 4800 3600 50  0001 C CNN
+F 3 "" H 4800 3600 50  0001 C CNN
+	1    4800 3600
+	-1   0    0    1   
+$EndComp
+$EndSCHEMATC

@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name cooldrv-eagle-import)(type Legacy)(uri ${KIPRJMOD}/cooldrv-eagle-import.lib)(options "")(descr ""))
+)
